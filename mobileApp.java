@@ -8,7 +8,7 @@
         connection1.recharge(30);
         boolean callResult1 = connection1.makeCall(15);
         System.out.println("Call result for connection1: " + callResult1);
-        System.out.println("Current balance for connection1: " + connection1.getBalance());
+        System.out.println("Curren balance for connection1: " + connection1.getBalance());
 
         boolean callResult2 = connection2.makeCall(25);
         System.out.println("Call result for connection2: " + callResult2);
