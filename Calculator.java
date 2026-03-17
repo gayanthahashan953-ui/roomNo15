@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 class Calculator {
     public static void main(String[] args) {
-        
+        int i=0;
+        while (i<4) {
         System.out.println("enter number1 number2 and operator");
 
         Scanner input = new Scanner(System.in);
@@ -22,6 +23,8 @@ class Calculator {
         } else {
             System.out.println("invalid operator");
         }
+        i++;
+    }
 
     }
 }
