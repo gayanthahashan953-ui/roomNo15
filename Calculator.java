@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
-class Calculator {
-    public static void main(String[] args) {
+class Calculator {// Create a Class
+    public static void main(String[] args) {//create a main method
+        
         int i=0;
-        while (i<4) {
+        while (i<4) {//creata a while loop
         System.out.println("enter number1 number2 and operator");
 
-        Scanner input = new Scanner(System.in);
+
+        Scanner input = new Scanner(System.in);//create a scan object
 
         int num1 = input.nextInt();
         char operator = input.next().charAt(0);
