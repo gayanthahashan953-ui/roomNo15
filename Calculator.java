@@ -3,8 +3,8 @@ import java.util.Scanner;
 class Calculator {// Create a Class
     public static void main(String[] args) {//create a main method
         
-        int i=0;
-        while (i<4) {//creata a while loop
+        
+        for(int x=0; x<5; x++;){
         System.out.println("enter number1 number2 and operator");
 
 
@@ -25,7 +25,7 @@ class Calculator {// Create a Class
         } else {
             System.out.println("invalid operator");
         }
-        i++;
+        }
     }
 
     }
